@@ -34,10 +34,10 @@ exports.getLogin = (req, res, next) => {
 exports.postLogin = (req, res, next) => {
 
    var connectDB = mysql.createConnection({
-      host: "localhost",
-      user: "u7owqme0iplpe7bm",
-      password: "JK6nlZGrCyP6IUaru6jU",
-      database: "b3rfcxzmfuzwinw0o9yy"
+      host: "bkpesll4sunn5sray8yx-mysql.services.clever-cloud.com",
+      user: "udpjebjco3xcxpfb",
+      password: "tICBuPC7VmJF05so3kvz",
+      database: "bkpesll4sunn5sray8yx"
    });
 
    data = "SELECT * " +
