@@ -35,9 +35,9 @@ exports.postLogin = (req, res, next) => {
 
    var connectDB = mysql.createConnection({
       host: "localhost",
-      user: "root",
-      password: "",
-      database: "hotel"
+      user: "u7owqme0iplpe7bm",
+      password: "JK6nlZGrCyP6IUaru6jU",
+      database: "b3rfcxzmfuzwinw0o9yy"
    });
 
    data = "SELECT * " +
